@@ -1,0 +1,81 @@
+/* Global styles */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #fff5f7; /* very soft pastel pink background */
+  color: #333; /* dark gray for readability */
+}
+
+/* Header */
+header {
+  background: #f8cdda; /* pastel pink gradient option */
+  background: linear-gradient(135deg, #f8cdda 0%, #fbd3e9 100%);
+  color: #333;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #d81b60; /* darker pink hover effect */
+}
+
+/* Sections */
+section {
+  padding: 3rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  color: #d81b60; /* accent pink for headings */
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Contact Formsite embed area */
+#contact {
+  background: #ffe6ef; /* light pastel pink */
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Footer */
+footer {
+  background: #f8cdda;
+  background: linear-gradient(135deg, #fbd3e9 0%, #f8cdda 100%);
+  text-align: center;
+  padding: 1rem;
+  color: #333;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+/* Buttons (if you add your own later) */
+button {
+  background: #f48fb1; /* pastel pink button */
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #ec407a; /* slightly darker pink on hover */
+}
